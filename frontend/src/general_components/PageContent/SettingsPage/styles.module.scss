@@ -1,0 +1,148 @@
+.wrapper {
+  padding: 25px;
+  font-size: 20px;
+  color: #000;
+}
+
+.image-area {
+  display: flex;
+  align-items: end;
+}
+.image-area input {
+  display: none;
+}
+.image {
+  min-width: 100px;
+  min-height: 100px;
+  max-width: 1000px;
+  max-height: 500px;
+}
+.image img {
+  width: 100%;
+  object-fit: fill;
+}
+.options {
+  background-color: rgb(205 205 205);
+  position: relative;
+  bottom: 20px;
+  left: 20px;
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.options:active {
+  background-color: rgb(185, 185, 185);
+}
+
+.body {
+  
+}
+.title {
+  margin-top: 30px;
+}
+.prefix {
+}
+.title-change {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  background-color: rgb(205, 205, 205);
+  padding: 10px 5px;
+  width: 100%;
+}
+.info-message {
+  position: absolute;
+  color: rgb(190, 55, 55);
+  font-size: 15px;
+  right: 0;
+  top: -25px;
+}
+.title-text {
+
+}
+.title-input {
+  font-size: 20px;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.description {  
+  margin: 20px 0;
+}
+.description-list {
+
+}
+.description-item {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+.delete-btn-wrapper {
+  display: flex;
+  padding: 0px 0px 0px 10px;
+  align-items: center;
+}
+.description-item-add {
+  padding: 20px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.indicator-wrapper {
+  padding: 0 15px 0 0;
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.indicator {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+}
+.indicator:hover {
+  outline: 2px solid #000;
+}
+
+.indicator-need {
+  background-color: rgb(238, 102, 102);
+}
+
+.indicator-optionally {
+  background-color: rgb(238, 212, 99);
+}
+
+.indicator-permissive {
+  background-color: rgb(146, 240, 134);
+}
+
+.indicator-none {
+  background-image: url("https://cdn-icons-png.flaticon.com/512/57/57165.png");
+  background-position: center;
+  background-size: contain;
+}
+
+.indicator-change-box {
+  position: absolute;
+  z-index: 1;
+  left: -12px;
+  display: block;
+  background-color: #fff;
+  border: 2px solid #000;
+}
+.indicator-change-box .indicator-wrapper {
+  padding: 0 10px;
+  margin: 10px 0;
+}
+
+.submit-settings-button {
+  display: flex;
+  width: 100%;
+  padding: 0px 20px 0px 0px;
+  justify-content: end;
+}

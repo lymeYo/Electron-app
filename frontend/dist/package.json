@@ -1,0 +1,30 @@
+{
+  "name": "electron-react-typescript-webpack-boilerplate",
+  "version": "4.1.2",
+  "description": "Pre-configured boilerplate for Electron + React + TypeScript",
+  "main": "./main.bundle.js",
+  "author": "Wing Chau @Devtography",
+  "license": "MIT",
+  "dependencies": {
+    "@mui/material": "^5.10.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Devtography/electron-react-typescript-webpack-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Devtography/electron-react-typescript-webpack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Devtography/electron-react-typescript-webpack-boilerplate#readme",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "electron ./main.bundle.js"
+  },
+  "devDependencies": {
+    "electron": "^20.0.2"
+  }
+}
